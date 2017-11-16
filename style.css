@@ -1,0 +1,55 @@
+body{
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+nav{
+  margin: 2px;
+  padding: 5px;
+  border-bottom: 5px solid #333;
+  overflow: hidden;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo{
+  float: left;
+  width: 150px;
+  height: 120px;
+}
+.myname{
+  float: right;
+  margin: 7px;
+}
+.myname h2{
+  font: italic 3em sans-serif;
+}
+.myname h3{
+  margin-top: -10px;
+  font: 1.5em Monospace;
+  float:right;
+}
+
+.bigpic img{
+  width:100%;
+  margin:10px 0;
+}
+
+main h1{
+  font-size: 3rem;
+  word-spacing: 1.1rem;
+}
+
+.image-in-block{
+  text-align: center;
+  display:inline-block;
+  width:33%;
+  margin-bottom: 30px;
+}
+.image-in-block h4,.image-in-block img  a{
+  text-align: center;
+}
